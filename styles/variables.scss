@@ -1,4 +1,6 @@
 $color-white-100: #fff;
+$color-beige-100: #FAE2D6;
+$color-rgb-beige-200: 250, 226, 214;
 $color-beige-300: #CFADAC;
 $color-beige-500: #9D8888;
 $color-beige-600: #967675;
@@ -7,7 +9,13 @@ $color-black-100: #000;
 $color-black-300: #111;
 
 $color-gray-100: #f6f6f7;
+$color-gray-200: #f1f1f2;
 $color-gray-500: #A0A0A0;
 
 $font-primary: 'Playfair Display', serif;
 $font-secondary: 'Poppins', sans-serif;
+
+$rwd-sm : 'min-width: 512px';
+$rwd-md: 'min-width: 768px';
+$rwd-lg: 'min-width: 1024px';
+$rwd-xl: 'min-width: 1200px';

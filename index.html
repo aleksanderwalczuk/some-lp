@@ -1,19 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mad Hatters</title>
-    <link rel="stylesheet" href="./dev/normalize.css">
-    <link rel="stylesheet" href="./styles/output.css">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com/">
-    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins&display=swap"
-        rel="stylesheet">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mad Hatters</title>
+  <link rel="stylesheet" href="./dev/normalize.css">
+  <link rel="stylesheet" href="./styles/output.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com/">
+  <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins&display=swap"
+    rel="stylesheet">
 </head>
+
 <body>
-    <h1>hello</h1>
+  <main class="wrapper">
+    <header class="header">
+      <div class="container">
+        <div class="fixed-wrapper">
+          <div class="logo">
+            <div class="decoration">
+              <svg width="9" height="9" viewBox="0 0 9 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g opacity="0.3">
+                  <circle cx="1.5" cy="1.5" r="1.5" fill="#23242C" />
+                  <circle cx="1.5" cy="7.5" r="1.5" fill="#23242C" />
+                  <circle cx="7.5" cy="1.5" r="1.5" fill="#23242C" />
+                  <circle cx="7.5" cy="7.5" r="1.5" fill="#23242C" />
+                </g>
+              </svg>
+            </div>
+            <h1 class="heading">
+              mad hatters
+            </h1>
+          </div>
+          <nav class="nav">
+          <button class="hamburger">
+            open
+          </button>
+          <ul>
+            <li><a href="#" class="link"><span>link-1</span></a></li>
+            <li><a href="#" class="link"><span>link-2</span></a></li>
+            <li><a href="#" class="link"><span>link-3</span></a></li>
+            <li><a href="#" class="link"><span>link-4</span></a></li>
+            <li><a href="#" class="link"><span>link-5</span></a></li>
+          </ul>
+        </nav>
+        </div>
+      </div>
+    </header>
+    <section class="hero">
+      <div class="container">
+        <div class="container-front">
+          <div class="images-wrapper">
+            <img src="https://via.placeholder.com/173x265" alt="">
+            <div class="img-behind">
+              <img src="https://via.placeholder.com/150x214" alt="" style="border: 1px solid blue;">
+            </div>
+          </div>
+          <div class="content">
+            <p class="heading-sm">Introducing</p>
+            <h2 class="heading">Mad hatters, 
+              <span><sup>a</sup>/<sub>b</sub></span>
+              style matters
+            </h2>
+          </div>
+        </div>
+        <div class="container-bg">
+            <div class="outer"></div>
+        </div>
+      </div>
+    </section>
+  </main>
 </body>
+
 </html>
